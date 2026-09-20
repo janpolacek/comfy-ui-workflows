@@ -131,7 +131,7 @@
         "previewExposures": []
       },
       "widgets_values": [
-        "Greyscale fashion editorial portrait of an avant-garde woman tilted upwards in profile, captured with striking high-contrast chiaroscuro lighting. She wears oversized, thick-rimmed circular black sunglasses with matte dark lenses, concealing her upward gaze. Her attire merges high couture with tactical abstraction: a high-necked structural dress tailored from heavyweight fabric featuring a disrupted optical camouflage pattern—interlocking oversized polka dots, pixelated stippling, and organic contour blotches in stark monochrome that mimic military disruptive patterns in a refined runway style. Around her shoulders, asymmetric pleated webbing and tailored cargo straps are integrated seamlessly into the garment’s architecture. In her gloved hand, she clutches a structured matte-leather geometric handbag accented with subtle tactical buckles, utility stitching, and dark brushed-metal hardware. Her skin texture is rendered with hyper-detailed clarity, sculpted by intense, razor-sharp studio key light and deep graphite shadows. The striking background is a vivid mixed-media graphic collage, composed of flat vibrant lime green planes, stark black and white overlapping circles, segmented semi-circles with bold zebra striping, dense micro-halftone dot matrices, and vector topographic contour lines. The clash between monochromatic disruptive camo elements on her clothing and the saturated, retro-futuristic pop-art backdrop creates an intense visual dissonance, emphasizing sharp silhouettes, paper cut-out edges, dynamic compositional balance, and clean graphic novel textures. Absolutely no text, no typography, no letters, no words, no numbers, no logos, no watermark, no captions, pure imagery only.",
+        "Illustrative mission artwork, not documentary photography. Red Horizon One during its final planned course-refinement manoeuvre in interplanetary cruise toward Mars: a compact, plausible uncrewed Mars mission spacecraft and cruise stage seen from a distant three-quarter view, executing a small precise correction burn, Mars large ahead in the black of space, restrained engineering realism, fine spacecraft materials, subtle solar-light rim, cinematic but observational composition. No astronauts, no cockpit, no flags, no agency logos, no text, no numbers, no watermark.",
         "",
         1,
         25,
@@ -141,11 +141,11 @@
         "simple",
         593103825222985,
         "qwen_image_2.1_int8_convrot.safetensors",
-        "qwen3vl_8b_int8_convrot.safetensors",
+        "qwen3vl_8b_w4a8.safetensors",
         "qwen_image_2.1_vae_bf16.safetensors"
       ],
       "widgets_values_named": {
-        "prompt": "Greyscale fashion editorial portrait of an avant-garde woman tilted upwards in profile, captured with striking high-contrast chiaroscuro lighting. She wears oversized, thick-rimmed circular black sunglasses with matte dark lenses, concealing her upward gaze. Her attire merges high couture with tactical abstraction: a high-necked structural dress tailored from heavyweight fabric featuring a disrupted optical camouflage pattern—interlocking oversized polka dots, pixelated stippling, and organic contour blotches in stark monochrome that mimic military disruptive patterns in a refined runway style. Around her shoulders, asymmetric pleated webbing and tailored cargo straps are integrated seamlessly into the garment’s architecture. In her gloved hand, she clutches a structured matte-leather geometric handbag accented with subtle tactical buckles, utility stitching, and dark brushed-metal hardware. Her skin texture is rendered with hyper-detailed clarity, sculpted by intense, razor-sharp studio key light and deep graphite shadows. The striking background is a vivid mixed-media graphic collage, composed of flat vibrant lime green planes, stark black and white overlapping circles, segmented semi-circles with bold zebra striping, dense micro-halftone dot matrices, and vector topographic contour lines. The clash between monochromatic disruptive camo elements on her clothing and the saturated, retro-futuristic pop-art backdrop creates an intense visual dissonance, emphasizing sharp silhouettes, paper cut-out edges, dynamic compositional balance, and clean graphic novel textures. Absolutely no text, no typography, no letters, no words, no numbers, no logos, no watermark, no captions, pure imagery only.",
+        "prompt": "Illustrative mission artwork, not documentary photography. Red Horizon One during its final planned course-refinement manoeuvre in interplanetary cruise toward Mars: a compact, plausible uncrewed Mars mission spacecraft and cruise stage seen from a distant three-quarter view, executing a small precise correction burn, Mars large ahead in the black of space, restrained engineering realism, fine spacecraft materials, subtle solar-light rim, cinematic but observational composition. No astronauts, no cockpit, no flags, no agency logos, no text, no numbers, no watermark.",
         "negative_prompt": "",
         "cfg": 1,
         "steps": 25,
@@ -155,7 +155,7 @@
         "scheduler_1": "simple",
         "seed": 593103825222985,
         "unet_name": "qwen_image_2.1_int8_convrot.safetensors",
-        "clip_name": "qwen3vl_8b_int8_convrot.safetensors",
+        "clip_name": "qwen3vl_8b_w4a8.safetensors",
         "vae_name": "qwen_image_2.1_vae_bf16.safetensors"
       }
     },
