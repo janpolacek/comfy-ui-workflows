@@ -1,3 +1,0 @@
-# Generated ComfyUI media stays local; version only reusable inputs and workflows.
-assets/outputs/**
-!assets/outputs/.gitignore
