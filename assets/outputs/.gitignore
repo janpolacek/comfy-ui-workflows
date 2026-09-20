@@ -1,0 +1,3 @@
+# Keep this directory locally, but never commit generated output media.
+*
+!.gitignore
