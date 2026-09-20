@@ -48,7 +48,7 @@
         "ver": "0.3.34"
       },
       "widgets_values": [
-        16
+        12
       ]
     },
     {
@@ -105,8 +105,8 @@
       "widgets_values": [
         675909971186865,
         "randomize",
-        4,
-        1,
+        20,
+        6,
         "uni_pc",
         "simple",
         1
@@ -199,7 +199,7 @@
       "widgets_values": [
         640,
         480,
-        81,
+        61,
         1,
         1
       ]
@@ -501,7 +501,7 @@
       ],
       "flags": {},
       "order": 10,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "model",
@@ -767,7 +767,7 @@
         "ver": "0.3.34"
       },
       "widgets_values": [
-        "Illustrative engineering mission footage, not documentary photography. A dust-covered RH-01 Pathfinder rover moves slowly and deliberately across the natural rocky rust-red terrain of Asteria Field on Mars. Preserve the reference vehicle silhouette exactly: low warm-white rectangular body with restrained muted-red panels, dark flat instrument deck, short central stereo-camera mast, exactly six broad open-mesh wheels with believable articulated suspension, and one small front-centre contact arm fully retracted and secured in its shallow travel cradle. The rover advances forward over small stones, wheels rotate naturally, subtle dust settles near the wheels, and two restrained fresh wheel tracks form behind it. Stable low three-quarter tracking camera, late-afternoon Martian sunlight, practical science-mission realism. No landing platform, no ramp, no landing pad, no human-made structures, no astronauts, no extended contact arm, no extra wheels, no exaggerated dust plume, no text, no logo, no watermark."
+        "Photorealistic scientific rover footage, natural Mars daylight. A dust-covered RH-01 Pathfinder moves slowly and deliberately over rough, wild, unprepared rust-red Martian terrain: loose granular regolith, angular rocks, scattered stones, subtle wind-carved undulations, and an uninterrupted natural horizon. Preserve the reference vehicle silhouette exactly: low warm-white rectangular body with restrained muted-red panels, dark flat instrument deck, short central stereo-camera mast, exactly six broad open-mesh wheels with believable articulated suspension, and one small front-centre contact arm fully retracted and secured in its shallow travel cradle. Continuous physical motion: all six wheels visibly rotate and compress into the soil, suspension responds to stones, small grains shift beside the tires, and two clean parallel wheel tracks are continuously formed in the regolith behind the rover. Stable low three-quarter tracking camera, physically plausible scale, restrained dust, detailed real-world materials, documentary-grade realism."
       ],
       "color": "#232",
       "bgcolor": "#353"
@@ -810,7 +810,7 @@
         "ver": "0.3.34"
       },
       "widgets_values": [
-        "human, astronaut, landing platform, ramp, landing pad, building, antenna farm, cockpit, extended contact arm, extra wheel, track vehicle, wheel replacement, floating parts, dust storm, heavy dust plume, damage, text, logo, watermark, subtitles"
+        "cartoon, illustration, stylized, CGI look, toy, human, astronaut, platform, pad, ramp, building, antenna farm, cockpit, extended contact arm, extra wheel, track vehicle, wheel replacement, floating parts, static wheels, frozen vehicle, no wheel tracks, dust storm, heavy dust plume, damage, text, logo, watermark, subtitles"
       ],
       "color": "#322",
       "bgcolor": "#533"
@@ -1578,7 +1578,7 @@
       "title": "Pathfinder references and run settings",
       "properties": {},
       "widgets_values": [
-        "## Wan2.1 VACE: Pathfinder reference-to-video\n\n- Five Pathfinder views are stitched into a single reference board because the native `WanVaceToVideo` node uses one reference-image input.\n- 640 × 480, 81 frames, 16 fps = 5.06 seconds.\n- Uses Wan2.1 VACE 1.3B + FP8 text encoder + 1.3B CausVid LoRA for an 8 GB GPU.\n- Output is written below `ComfyUI/output/video/ComfyUI`.\n\nThe prompt requires the contact arm to remain retracted, and excludes every landing-platform or human-made surface feature."
+        "## Wan2.1 VACE: Pathfinder reference-to-video\n\n- Five Pathfinder views are stitched into a single reference board because the native `WanVaceToVideo` node uses one reference-image input.\n- 640 × 480, 61 frames, 12 fps = 5.08 seconds.\n- Uses Wan2.1 VACE 1.3B + FP8 text encoder on an 8 GB GPU. The CausVid LoRA is bypassed for the higher-quality 20-step path.\n- Output is written below `ComfyUI/output/video/ComfyUI`.\n\nThe prompt requires a retracted contact arm, continuously rotating wheels and fresh tracks in entirely natural, unprepared Mars terrain."
       ]
     }
   ],

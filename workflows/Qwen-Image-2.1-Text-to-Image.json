@@ -131,7 +131,7 @@
         "previewExposures": []
       },
       "widgets_values": [
-        "Illustrative mission artwork, not documentary photography. Red Horizon One during its final planned course-refinement manoeuvre in interplanetary cruise toward Mars: a compact, plausible uncrewed Mars mission spacecraft and cruise stage seen from a distant three-quarter view, executing a small precise correction burn, Mars large ahead in the black of space, restrained engineering realism, fine spacecraft materials, subtle solar-light rim, cinematic but observational composition. No astronauts, no cockpit, no flags, no agency logos, no text, no numbers, no watermark.",
+        "Photorealistic editorial spaceflight visualization. Red Horizon One on its final planned, low-thrust course-refinement manoeuvre during interplanetary cruise to Mars: a compact plausible uncrewed Mars mission spacecraft with cruise stage, three-quarter exterior view, a small precise engine plume, detailed insulation blankets, antennas and solar arrays in hard sunlight, Mars filling the distance ahead against deep black space. Credible scale, restrained mission-engineering aesthetic, high-fidelity materials, natural solar rim light, sharp cinematic composition. No people, no cockpit, no flags, no agency logo, no text, no numbers, no watermark.",
         "",
         1,
         25,
@@ -141,11 +141,11 @@
         "simple",
         593103825222985,
         "qwen_image_2.1_int8_convrot.safetensors",
-        "qwen3vl_8b_w4a8.safetensors",
+        "qwen3vl_8b_int8_convrot.safetensors",
         "qwen_image_2.1_vae_bf16.safetensors"
       ],
       "widgets_values_named": {
-        "prompt": "Illustrative mission artwork, not documentary photography. Red Horizon One during its final planned course-refinement manoeuvre in interplanetary cruise toward Mars: a compact, plausible uncrewed Mars mission spacecraft and cruise stage seen from a distant three-quarter view, executing a small precise correction burn, Mars large ahead in the black of space, restrained engineering realism, fine spacecraft materials, subtle solar-light rim, cinematic but observational composition. No astronauts, no cockpit, no flags, no agency logos, no text, no numbers, no watermark.",
+        "prompt": "Photorealistic editorial spaceflight visualization. Red Horizon One on its final planned, low-thrust course-refinement manoeuvre during interplanetary cruise to Mars: a compact plausible uncrewed Mars mission spacecraft with cruise stage, three-quarter exterior view, a small precise engine plume, detailed insulation blankets, antennas and solar arrays in hard sunlight, Mars filling the distance ahead against deep black space. Credible scale, restrained mission-engineering aesthetic, high-fidelity materials, natural solar rim light, sharp cinematic composition. No people, no cockpit, no flags, no agency logo, no text, no numbers, no watermark.",
         "negative_prompt": "",
         "cfg": 1,
         "steps": 25,
@@ -155,7 +155,7 @@
         "scheduler_1": "simple",
         "seed": 593103825222985,
         "unet_name": "qwen_image_2.1_int8_convrot.safetensors",
-        "clip_name": "qwen3vl_8b_w4a8.safetensors",
+        "clip_name": "qwen3vl_8b_int8_convrot.safetensors",
         "vae_name": "qwen_image_2.1_vae_bf16.safetensors"
       }
     },
